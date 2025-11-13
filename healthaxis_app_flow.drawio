@@ -49,8 +49,32 @@
         <mxCell id="LvLNme_hUOfrt2gX0m-h-12" value="site.php" style="whiteSpace=wrap;html=1;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="370" y="320" width="210" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="LvLNme_hUOfrt2gX0m-h-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LvLNme_hUOfrt2gX0m-h-14" target="LvLNme_hUOfrt2gX0m-h-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LvLNme_hUOfrt2gX0m-h-14" value="auth.php" style="whiteSpace=wrap;html=1;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="140" y="880" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LvLNme_hUOfrt2gX0m-h-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LvLNme_hUOfrt2gX0m-h-16" target="LvLNme_hUOfrt2gX0m-h-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LvLNme_hUOfrt2gX0m-h-16" value="auth/user_logged_in()" style="whiteSpace=wrap;html=1;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1020" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LvLNme_hUOfrt2gX0m-h-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LvLNme_hUOfrt2gX0m-h-18" target="LvLNme_hUOfrt2gX0m-h-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LvLNme_hUOfrt2gX0m-h-18" value="system/libraries/Session/Session.php" style="whiteSpace=wrap;html=1;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1160" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LvLNme_hUOfrt2gX0m-h-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LvLNme_hUOfrt2gX0m-h-20" target="LvLNme_hUOfrt2gX0m-h-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LvLNme_hUOfrt2gX0m-h-20" value="Session.php" style="whiteSpace=wrap;html=1;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1300" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LvLNme_hUOfrt2gX0m-h-22" value="Session.php/userdata()" style="whiteSpace=wrap;html=1;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1440" width="370" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
